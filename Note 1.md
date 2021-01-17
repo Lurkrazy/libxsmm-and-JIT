@@ -6,9 +6,9 @@
 
 这篇文章在做小规模的时候提到了跟LIBXSMM对比
 
-* LIBXSMM五连SC，两篇是小矩阵[References](https://github.com/hfp/libxsmm#reference)
+* LIBXSMM五连SC，两篇是小矩阵[References](https://github.com/hfp/libxsmm/blob/master/README.md#references)
 
-* [Articles](https://github.com/hfp/libxsmm#articles)
+* [Articles](https://github.com/hfp/libxsmm/blob/master/README.md#articles)
 
       
 
