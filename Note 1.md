@@ -8,9 +8,9 @@
 
 * LIBXSMM五连SC，两篇是小矩阵
 
-    [References]: https://github.com/hfp/libxsmm#reference
+    [References]: https://github.com/hfp/libxsmm#reference	"References"
 
-* [Articles]: https://github.com/hfp/libxsmm#articles
+* [Articles]: https://github.com/hfp/libxsmm#articles	"Articles"
 
     
 
@@ -26,11 +26,11 @@ JIT会在./bin目录生成二进制可执行文件libxsmm_gemm_generator
 
 1、文档中JIT使用方法：
 
-[Backend JIT]: https://github.com/hfp/libxsmm/blob/master/documentation/libxsmm_be.md
+[Backend JIT]: https://github.com/hfp/libxsmm/blob/master/documentation/libxsmm_be.md	"Backend JIT"
 
 2、小规模(mnk<23^3)的JIT比直接写的ASM仅慢2%
 
-[PDF]: http://sc15.supercomputing.org/sites/all/themes/SC15images/tech_poster/poster_files/post137s2-file2.pdf
+[PDF]: http://sc15.supercomputing.org/sites/all/themes/SC15images/tech_poster/poster_files/post137s2-file2.pdf	"PDF"
 
 3、目前为止JIT只支持alpha=1，beta=1/0。
 
