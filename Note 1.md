@@ -6,13 +6,11 @@
 
 这篇文章在做小规模的时候提到了跟LIBXSMM对比
 
-* LIBXSMM五连SC，两篇是小矩阵
+* LIBXSMM五连SC，两篇是小矩阵[References](https://github.com/hfp/libxsmm#reference)
 
-    [References]: https://github.com/hfp/libxsmm#reference	"References"
+* [Articles](https://github.com/hfp/libxsmm#articles)
 
-* [Articles]: https://github.com/hfp/libxsmm#articles	"Articles"
-
-    
+      
 
 
 
@@ -24,21 +22,17 @@ JIT会在./bin目录生成二进制可执行文件libxsmm_gemm_generator
 
 ## Notes
 
-1、文档中JIT使用方法：
+1、文档中JIT使用方法：[Backend JIT](https://github.com/hfp/libxsmm/blob/master/documentation/libxsmm_be.md)
 
-[Backend JIT]: https://github.com/hfp/libxsmm/blob/master/documentation/libxsmm_be.md	"Backend JIT"
-
-2、小规模(mnk<23^3)的JIT比直接写的ASM仅慢2%
-
-[PDF]: http://sc15.supercomputing.org/sites/all/themes/SC15images/tech_poster/poster_files/post137s2-file2.pdf	"PDF"
+2、小规模(mnk<23^3)的JIT比直接写的ASM仅慢2% [source](http://sc15.supercomputing.org/sites/all/themes/SC15images/tech_poster/poster_files/post137s2-file2.pdf)
 
 3、目前为止JIT只支持alpha=1，beta=1/0。
 
-4、支持稀疏矩阵，dense/dense_asm/sparse (dense creates C code, dense_asm creates ASM)
+4、支持稀疏矩阵，support: dense/dense_asm/sparse (dense creates C code, dense_asm creates ASM)
 
 5、不支持转置矩阵
 
-6、代码自动生成支持多指令集AVX1/AVX2/AVX512，但不支持SSE，https://github.com/hfp/libxsmm/issues/376
+6、代码自动生成支持多指令集AVX1/AVX2/AVX512，但不支持SSE，[source](https://github.com/hfp/libxsmm/issues/376)
 
 7、
 
